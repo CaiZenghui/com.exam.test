@@ -1,10 +1,11 @@
-package com.example.com.exam.test;
+package com.example.com.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.ViewGroup;
 
 import com.exam.test.view.CustomView;
+import com.example.com.exam.test.R;
 
 public class CustomViewActivity extends Activity {
 

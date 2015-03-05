@@ -1,4 +1,4 @@
-package com.example.com.exam.test;
+package com.example.com.activity;
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.exam.test.utils.HttpUtil;
+import com.example.com.exam.test.R;
 import com.example.test.model.WeatherInfo;
 import com.example.test.model.WeatherInfo.Forecast;
 import com.example.test.model.WeatherInfo.Realtime;

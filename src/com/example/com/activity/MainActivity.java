@@ -1,4 +1,6 @@
-package com.example.com.exam.test;
+package com.example.com.activity;
+
+import com.example.com.exam.test.R;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -35,7 +37,7 @@ public class MainActivity extends Activity implements OnClickListener {
 				break;
 
 			case R.id.btn3:
-
+				startActivity(new Intent(this, ImageActivity.class));
 				break;
 
 			case R.id.btn4:

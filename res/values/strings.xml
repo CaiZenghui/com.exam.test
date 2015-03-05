@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_weather">WeatherActivity</string>
     <string name="title_activity_custom_view">CustomViewActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
 
 </resources>
