@@ -1,4 +1,4 @@
-package com.example.com.activity;
+package com.exam.test.activity;
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
@@ -9,11 +9,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.exam.test.model.WeatherInfo;
+import com.exam.test.model.WeatherInfo.Forecast;
+import com.exam.test.model.WeatherInfo.Realtime;
 import com.exam.test.utils.HttpUtil;
 import com.example.com.exam.test.R;
-import com.example.test.model.WeatherInfo;
-import com.example.test.model.WeatherInfo.Forecast;
-import com.example.test.model.WeatherInfo.Realtime;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

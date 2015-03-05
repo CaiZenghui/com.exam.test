@@ -1,4 +1,4 @@
-package com.example.com.activity;
+package com.exam.test.activity;
 
 import com.example.com.exam.test.R;
 
